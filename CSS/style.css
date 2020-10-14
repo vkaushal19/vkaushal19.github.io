@@ -1,0 +1,89 @@
+*{
+    color: whitesmoke;
+}
+body{
+    background-color: black;
+}
+.city{
+    background: url(city-top.jpg);
+}
+.hero{
+    height: 100vh;
+}
+.vikrant{
+    border: solid 1px white;
+    margin-top: 190px;
+}
+.vikrant-name{
+    background-color: black;
+    display: inline-block;
+    transform: translateY(-50%);
+}
+.cover{
+    text-align: center;
+}
+.cover-list{
+    display: inline;
+    padding: 2px;
+}
+.icons-top {
+    background-color: black;
+    text-align: center;
+    transform: translateY(86%);
+    display: inline-block;
+}
+.icons-bottom {
+    background-color: black;
+    text-align: center;
+}
+.icons-list {
+    display: inline;
+    padding: 15px;
+}
+h2{
+    text-align: center;
+}
+.fa-envelope:hover {
+     color: red;
+     background-color: white;
+     border-radius: 10%;
+}
+.fa-twitter:hover {
+        background-color: blue;
+        border-radius: 20%;   
+}
+.fa-linkedin:hover {
+    background-color: blue;
+    border-radius: 20%;   
+}
+.fa-github:hover {
+    background-color: purple;
+    border-radius: 70px;   
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon 
+{
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  opacity: 0.5;
+  border-radius: 50%;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon:hover
+{
+     opacity: 1;
+}
+@media (max-width: 374px) 
+    {
+        .icons-list {
+            display: inline;
+            padding: 10px;
+        }
+        .vik1{
+            display: none;
+        }
+        p{
+            text-align: center;
+        }
+    }
